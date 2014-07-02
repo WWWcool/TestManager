@@ -1,0 +1,8 @@
+C:\WORK\Programming\studioProg\TimeManeger_v0.001\TimeManeger_v0.001\bin\Debug\TimeManeger_v0.001.exe
+C:\WORK\Programming\studioProg\TimeManeger_v0.001\TimeManeger_v0.001\bin\Debug\TimeManeger_v0.001.pdb
+C:\WORK\Programming\studioProg\TimeManeger_v0.001\TimeManeger_v0.001\obj\x86\Debug\TimeManeger_v0._001.f_Options.resources
+C:\WORK\Programming\studioProg\TimeManeger_v0.001\TimeManeger_v0.001\obj\x86\Debug\TimeManeger_v0._001.f_Main.resources
+C:\WORK\Programming\studioProg\TimeManeger_v0.001\TimeManeger_v0.001\obj\x86\Debug\TimeManeger_v0._001.Properties.Resources.resources
+C:\WORK\Programming\studioProg\TimeManeger_v0.001\TimeManeger_v0.001\obj\x86\Debug\TimeManeger_v0.001.csproj.GenerateResource.Cache
+C:\WORK\Programming\studioProg\TimeManeger_v0.001\TimeManeger_v0.001\obj\x86\Debug\TimeManeger_v0.001.exe
+C:\WORK\Programming\studioProg\TimeManeger_v0.001\TimeManeger_v0.001\obj\x86\Debug\TimeManeger_v0.001.pdb
