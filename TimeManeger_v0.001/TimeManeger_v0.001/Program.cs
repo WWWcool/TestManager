@@ -15,7 +15,8 @@ namespace TimeManeger_v0._001
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new f_Main());
+            f_Main Main_form = new f_Main();
+            Application.Run(Main_form);
         }
     }
 }

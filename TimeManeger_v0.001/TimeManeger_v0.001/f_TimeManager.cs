@@ -12,6 +12,7 @@ namespace TimeManeger_v0._001
     public partial class f_Main : Form
     {
         f_Options f = new f_Options();
+        System.Collections.ArrayList TaskList = new System.Collections.ArrayList();
 
         public f_Main()
         {
@@ -24,6 +25,8 @@ namespace TimeManeger_v0._001
 
         private void btn_Options_Click(object sender, EventArgs e)
         {
+           
+            //f.Location = new Point(0, 0);
             f.ShowDialog();
         }
 
@@ -36,15 +39,16 @@ namespace TimeManeger_v0._001
 
         private void f_Main_KeyPress(object sender, KeyPressEventArgs e)
         {
-            int i = 1;
+            int i = 0;
+            
             if (e.KeyChar == (char)Keys.Enter)
             {
                 if (text_NewTask.Text == string.Empty) return;
-                foreach (CheckBox k in pnl_Task.Controls.OfType<CheckBox>()) i++;
-                CheckBox Task_check = new CheckBox();
-                Task_check.Size = new System.Drawing.Size(200, 35);
-                Task_check.Location = new Point(25, -25 + i * 35);
+                foreach (Task_Check k in pnl_Task.Controls.OfType<Task_Check>()) i++;
+                Task_Check Task_check = new Task_Check(25, 10 + i * 35, 200, 35);
+                Task_check.Set_text(text_NewTask.Text);
                 Task_check.Text = text_NewTask.Text;
+                TaskList.Add(Task_check);
                 pnl_Task.Controls.Add(Task_check);
                 text_NewTask.Text = "<<  Добавить новую задачу  >>";
                 pnl_Task.Focus();
@@ -66,7 +70,8 @@ namespace TimeManeger_v0._001
             switch (cmb_TaskMenu.SelectedIndex)
             {
                 case 2:
-                    foreach (CheckBox k in pnl_Task.Controls.OfType<CheckBox>())
+                    foreach (CheckBox k in TaskList)
+                    //foreach (CheckBox k in pnl_Task.Controls.OfType<CheckBox>())
                     {
                         if (k.Checked) pnl_Task.Controls.Remove(k);
                         // подвинуть к+1 на 1 вверх переделать список чтобы удаленные норм выводились
@@ -76,6 +81,14 @@ namespace TimeManeger_v0._001
             cmb_TaskMenu.SelectedIndex = 0;
             cmb_TaskMenu.Text = "Другие действия ...";
         }
+        void pnl_Task_Sort(System.Collections.ArrayList ArrayList)
+        {
+            foreach (CheckBox k in ArrayList)
+            {
+
+            }
+        }
+
 
     }
 }

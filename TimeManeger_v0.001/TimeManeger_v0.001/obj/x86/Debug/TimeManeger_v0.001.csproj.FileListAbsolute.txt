@@ -6,3 +6,12 @@ C:\WORK\Programming\studioProg\TimeManeger_v0.001\TimeManeger_v0.001\obj\x86\Deb
 C:\WORK\Programming\studioProg\TimeManeger_v0.001\TimeManeger_v0.001\obj\x86\Debug\TimeManeger_v0.001.csproj.GenerateResource.Cache
 C:\WORK\Programming\studioProg\TimeManeger_v0.001\TimeManeger_v0.001\obj\x86\Debug\TimeManeger_v0.001.exe
 C:\WORK\Programming\studioProg\TimeManeger_v0.001\TimeManeger_v0.001\obj\x86\Debug\TimeManeger_v0.001.pdb
+D:\GitHub\TestManager\TimeManeger_v0.001\TimeManeger_v0.001\obj\x86\Debug\TimeManeger_v0.001.exe
+D:\GitHub\TestManager\TimeManeger_v0.001\TimeManeger_v0.001\obj\x86\Debug\TimeManeger_v0.001.pdb
+D:\GitHub\TestManager\TimeManeger_v0.001\TimeManeger_v0.001\bin\Debug\TimeManeger_v0.001.exe
+D:\GitHub\TestManager\TimeManeger_v0.001\TimeManeger_v0.001\bin\Debug\TimeManeger_v0.001.pdb
+D:\GitHub\TestManager\TimeManeger_v0.001\TimeManeger_v0.001\obj\x86\Debug\TimeManeger_v0._001.f_Options.resources
+D:\GitHub\TestManager\TimeManeger_v0.001\TimeManeger_v0.001\obj\x86\Debug\TimeManeger_v0._001.f_Main.resources
+D:\GitHub\TestManager\TimeManeger_v0.001\TimeManeger_v0.001\obj\x86\Debug\TimeManeger_v0._001.Properties.Resources.resources
+D:\GitHub\TestManager\TimeManeger_v0.001\TimeManeger_v0.001\obj\x86\Debug\TimeManeger_v0.001.csproj.GenerateResource.Cache
+D:\GitHub\TestManager\TimeManeger_v0.001\TimeManeger_v0.001\obj\x86\Debug\TimeManeger_v0.001.csprojResolveAssemblyReference.cache
