@@ -151,7 +151,37 @@
     <value>pnl_Time_top</value>
   </data>
   <data name="&gt;&gt;text_NewTask.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
+  </data>
+  <data name="lbl_Priority.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_Priority.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="lbl_Priority.Location" type="System.Drawing.Point, System.Drawing">
+    <value>492, 88</value>
+  </data>
+  <data name="lbl_Priority.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 25</value>
+  </data>
+  <data name="lbl_Priority.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lbl_Priority.Text" xml:space="preserve">
+    <value>Приоритет задачи</value>
+  </data>
+  <data name="&gt;&gt;lbl_Priority.Name" xml:space="preserve">
+    <value>lbl_Priority</value>
+  </data>
+  <data name="&gt;&gt;lbl_Priority.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_Priority.Parent" xml:space="preserve">
+    <value>pnl_Time_top</value>
+  </data>
+  <data name="&gt;&gt;lbl_Priority.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="cmb_TaskMenu.Location" type="System.Drawing.Point, System.Drawing">
     <value>17, 65</value>
@@ -166,7 +196,7 @@
     <value>1</value>
   </data>
   <data name="cmb_TaskMenu.Text" xml:space="preserve">
-    <value>Другие действия ...</value>
+    <value>Другие действия...</value>
   </data>
   <data name="&gt;&gt;cmb_TaskMenu.Name" xml:space="preserve">
     <value>cmb_TaskMenu</value>
@@ -178,16 +208,16 @@
     <value>pnl_Time_top</value>
   </data>
   <data name="&gt;&gt;cmb_TaskMenu.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="pnl_Time_top.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 30</value>
+    <value>7, 7</value>
   </data>
   <data name="pnl_Time_top.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
   <data name="pnl_Time_top.Size" type="System.Drawing.Size, System.Drawing">
-    <value>701, 107</value>
+    <value>678, 113</value>
   </data>
   <data name="pnl_Time_top.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -199,37 +229,13 @@
     <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;pnl_Time_top.Parent" xml:space="preserve">
-    <value>$this</value>
+    <value>P_Time</value>
   </data>
   <data name="&gt;&gt;pnl_Time_top.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="pnl_Task.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 144</value>
-  </data>
-  <data name="pnl_Task.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="pnl_Task.Size" type="System.Drawing.Size, System.Drawing">
-    <value>701, 297</value>
-  </data>
-  <data name="pnl_Task.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;pnl_Task.Name" xml:space="preserve">
-    <value>pnl_Task</value>
-  </data>
-  <data name="&gt;&gt;pnl_Task.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pnl_Task.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;pnl_Task.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>0</value>
   </data>
   <data name="btn_Analis.Location" type="System.Drawing.Point, System.Drawing">
-    <value>17, 449</value>
+    <value>8, 387</value>
   </data>
   <data name="btn_Analis.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
@@ -250,16 +256,16 @@
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;btn_Analis.Parent" xml:space="preserve">
-    <value>$this</value>
+    <value>P_Time</value>
   </data>
   <data name="&gt;&gt;btn_Analis.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>3</value>
   </data>
   <data name="btn_Celender.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="btn_Celender.Location" type="System.Drawing.Point, System.Drawing">
-    <value>125, 449</value>
+    <value>116, 387</value>
   </data>
   <data name="btn_Celender.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
@@ -280,70 +286,10 @@
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;btn_Celender.Parent" xml:space="preserve">
-    <value>$this</value>
+    <value>P_Time</value>
   </data>
   <data name="&gt;&gt;btn_Celender.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="btn_FinanceForm.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btn_FinanceForm.Location" type="System.Drawing.Point, System.Drawing">
-    <value>233, 449</value>
-  </data>
-  <data name="btn_FinanceForm.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="btn_FinanceForm.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 28</value>
-  </data>
-  <data name="btn_FinanceForm.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="btn_FinanceForm.Text" xml:space="preserve">
-    <value>Финансы</value>
-  </data>
-  <data name="&gt;&gt;btn_FinanceForm.Name" xml:space="preserve">
-    <value>btn_FinanceForm</value>
-  </data>
-  <data name="&gt;&gt;btn_FinanceForm.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btn_FinanceForm.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;btn_FinanceForm.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="btn_Relax.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btn_Relax.Location" type="System.Drawing.Point, System.Drawing">
-    <value>341, 449</value>
-  </data>
-  <data name="btn_Relax.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="btn_Relax.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 28</value>
-  </data>
-  <data name="btn_Relax.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="btn_Relax.Text" xml:space="preserve">
-    <value>Досуг</value>
-  </data>
-  <data name="&gt;&gt;btn_Relax.Name" xml:space="preserve">
-    <value>btn_Relax</value>
-  </data>
-  <data name="&gt;&gt;btn_Relax.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btn_Relax.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;btn_Relax.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>4</value>
   </data>
   <metadata name="err_TimeManager.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
@@ -360,11 +306,14 @@
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>733, 492</value>
   </data>
+  <data name="Main_tab.Alignment" type="System.Windows.Forms.TabAlignment, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
   <data name="btn_Options.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="btn_Options.Location" type="System.Drawing.Point, System.Drawing">
-    <value>449, 449</value>
+    <value>224, 387</value>
   </data>
   <data name="btn_Options.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
@@ -385,9 +334,156 @@
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;btn_Options.Parent" xml:space="preserve">
-    <value>$this</value>
+    <value>P_Time</value>
   </data>
   <data name="&gt;&gt;btn_Options.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="pnl_Task.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 115</value>
+  </data>
+  <data name="pnl_Task.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="pnl_Task.Size" type="System.Drawing.Size, System.Drawing">
+    <value>678, 264</value>
+  </data>
+  <data name="pnl_Task.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;pnl_Task.Name" xml:space="preserve">
+    <value>pnl_Task</value>
+  </data>
+  <data name="&gt;&gt;pnl_Task.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnl_Task.Parent" xml:space="preserve">
+    <value>P_Time</value>
+  </data>
+  <data name="&gt;&gt;pnl_Task.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="P_Time.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="P_Time.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="P_Time.Size" type="System.Drawing.Size, System.Drawing">
+    <value>692, 425</value>
+  </data>
+  <data name="P_Time.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="P_Time.Text" xml:space="preserve">
+    <value>Расписание</value>
+  </data>
+  <data name="&gt;&gt;P_Time.Name" xml:space="preserve">
+    <value>P_Time</value>
+  </data>
+  <data name="&gt;&gt;P_Time.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;P_Time.Parent" xml:space="preserve">
+    <value>Main_tab</value>
+  </data>
+  <data name="&gt;&gt;P_Time.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="P_Finance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="P_Finance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>692, 425</value>
+  </data>
+  <data name="P_Finance.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="P_Finance.Text" xml:space="preserve">
+    <value>Финансы</value>
+  </data>
+  <data name="&gt;&gt;P_Finance.Name" xml:space="preserve">
+    <value>P_Finance</value>
+  </data>
+  <data name="&gt;&gt;P_Finance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;P_Finance.Parent" xml:space="preserve">
+    <value>Main_tab</value>
+  </data>
+  <data name="&gt;&gt;P_Finance.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="P_Relax.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="P_Relax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>692, 425</value>
+  </data>
+  <data name="P_Relax.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="P_Relax.Text" xml:space="preserve">
+    <value>   Хобби    </value>
+  </data>
+  <data name="&gt;&gt;P_Relax.Name" xml:space="preserve">
+    <value>P_Relax</value>
+  </data>
+  <data name="&gt;&gt;P_Relax.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;P_Relax.Parent" xml:space="preserve">
+    <value>Main_tab</value>
+  </data>
+  <data name="&gt;&gt;P_Relax.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="P_Options.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="P_Options.Size" type="System.Drawing.Size, System.Drawing">
+    <value>692, 425</value>
+  </data>
+  <data name="P_Options.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="P_Options.Text" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="&gt;&gt;P_Options.Name" xml:space="preserve">
+    <value>P_Options</value>
+  </data>
+  <data name="&gt;&gt;P_Options.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;P_Options.Parent" xml:space="preserve">
+    <value>Main_tab</value>
+  </data>
+  <data name="&gt;&gt;P_Options.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Main_tab.ItemSize" type="System.Drawing.Size, System.Drawing">
+    <value>100, 35</value>
+  </data>
+  <data name="Main_tab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 12</value>
+  </data>
+  <data name="Main_tab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>700, 468</value>
+  </data>
+  <data name="Main_tab.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Main_tab.Name" xml:space="preserve">
+    <value>Main_tab</value>
+  </data>
+  <data name="&gt;&gt;Main_tab.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Main_tab.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Main_tab.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">

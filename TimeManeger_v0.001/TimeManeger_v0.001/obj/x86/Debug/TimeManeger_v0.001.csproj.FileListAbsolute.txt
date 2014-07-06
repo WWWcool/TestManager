@@ -15,3 +15,4 @@ D:\GitHub\TestManager\TimeManeger_v0.001\TimeManeger_v0.001\obj\x86\Debug\TimeMa
 D:\GitHub\TestManager\TimeManeger_v0.001\TimeManeger_v0.001\obj\x86\Debug\TimeManeger_v0._001.Properties.Resources.resources
 D:\GitHub\TestManager\TimeManeger_v0.001\TimeManeger_v0.001\obj\x86\Debug\TimeManeger_v0.001.csproj.GenerateResource.Cache
 D:\GitHub\TestManager\TimeManeger_v0.001\TimeManeger_v0.001\obj\x86\Debug\TimeManeger_v0.001.csprojResolveAssemblyReference.cache
+D:\GitHub\TestManager\TimeManeger_v0.001\TimeManeger_v0.001\obj\x86\Debug\TimeManeger_v0._001.Task_Check.resources

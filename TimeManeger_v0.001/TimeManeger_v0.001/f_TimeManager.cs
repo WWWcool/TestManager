@@ -17,8 +17,9 @@ namespace TimeManeger_v0._001
         public f_Main()
         {
             InitializeComponent();
-            cmb_TaskMenu.Items.Add("   ---   "); // сделать так чтобы эти строчки нельзя было выбрать
-            cmb_TaskMenu.Items.Add("         ");
+
+            cmb_TaskMenu.Items.Add(" Продублировать задачу "); // сделать так чтобы эти строчки нельзя было выбрать
+            cmb_TaskMenu.Items.Add(" Перенести задачу ");
             cmb_TaskMenu.Items.Add(" Удалить задачу ");
             
         }
@@ -45,9 +46,9 @@ namespace TimeManeger_v0._001
             {
                 if (text_NewTask.Text == string.Empty) return;
                 foreach (Task_Check k in pnl_Task.Controls.OfType<Task_Check>()) i++;
-                Task_Check Task_check = new Task_Check(25, 10 + i * 35, 200, 35);
+                Task_Check Task_check = new Task_Check();
                 Task_check.Set_text(text_NewTask.Text);
-                Task_check.Text = text_NewTask.Text;
+                Task_check.Location = new Point(25, 10 + i * 35);
                 TaskList.Add(Task_check);
                 pnl_Task.Controls.Add(Task_check);
                 text_NewTask.Text = "<<  Добавить новую задачу  >>";
@@ -69,23 +70,33 @@ namespace TimeManeger_v0._001
         {
             switch (cmb_TaskMenu.SelectedIndex)
             {
-                case 2:
-                    foreach (CheckBox k in TaskList)
-                    //foreach (CheckBox k in pnl_Task.Controls.OfType<CheckBox>())
+                case 0: // Продублировать
+                    break;
+                case 1: // Перенести
+                    break;
+                case 2: // Удалить
+                    foreach (Task_Check k in TaskList)
                     {
-                        if (k.Checked) pnl_Task.Controls.Remove(k);
+                         if (k.Get_Checked()) pnl_Task.Controls.Remove(k);
                         // подвинуть к+1 на 1 вверх переделать список чтобы удаленные норм выводились
                     }
                     break;
             }
-            cmb_TaskMenu.SelectedIndex = 0;
-            cmb_TaskMenu.Text = "Другие действия ...";
+            pnl_Task.Focus();
         }
         void pnl_Task_Sort(System.Collections.ArrayList ArrayList)
         {
-            foreach (CheckBox k in ArrayList)
+            foreach(Task_Check k in TaskList)
             {
-
+                /* есть список параметров, сортировать будем по максимальному значению суммы параметров,
+                 * сортировка по убыванию максимального значения  
+                 * копируем лист элементов
+                 * Подсчитываем сумму по текущему элементу
+                 * ищем максимальный в листе
+                 * исключаем найденный максимум - добавляем его на первую позицию при выводе на экран
+                 * повторяем поиск до тех пор пока в скопированном листе не останется элементов
+                 * 
+                */
             }
         }
 
