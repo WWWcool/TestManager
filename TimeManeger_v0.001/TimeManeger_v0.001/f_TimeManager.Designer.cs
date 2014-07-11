@@ -32,6 +32,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(f_Main));
             this.text_NewTask = new System.Windows.Forms.TextBox();
             this.pnl_Time_top = new System.Windows.Forms.Panel();
+            this.lbl_Priority = new System.Windows.Forms.Label();
             this.cmb_TaskMenu = new System.Windows.Forms.ComboBox();
             this.btn_Analis = new System.Windows.Forms.Button();
             this.btn_Celender = new System.Windows.Forms.Button();
@@ -41,13 +42,23 @@
             this.P_Time = new System.Windows.Forms.TabPage();
             this.pnl_Task = new System.Windows.Forms.Panel();
             this.P_Finance = new System.Windows.Forms.TabPage();
+            this.IncomeBox = new System.Windows.Forms.GroupBox();
             this.P_Relax = new System.Windows.Forms.TabPage();
             this.P_Options = new System.Windows.Forms.TabPage();
-            this.lbl_Priority = new System.Windows.Forms.Label();
+            this.ExitButton = new System.Windows.Forms.Button();
+            this.CostsBox = new System.Windows.Forms.GroupBox();
+            this.CostsLabel1 = new System.Windows.Forms.Label();
+            this.CostsLabel2 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.CostsLabel3 = new System.Windows.Forms.Label();
+            this.CostsLabel4 = new System.Windows.Forms.Label();
             this.pnl_Time_top.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.err_TimeManager)).BeginInit();
             this.Main_tab.SuspendLayout();
             this.P_Time.SuspendLayout();
+            this.P_Finance.SuspendLayout();
+            this.CostsBox.SuspendLayout();
             this.SuspendLayout();
             // 
             // text_NewTask
@@ -66,6 +77,12 @@
             this.pnl_Time_top.Controls.Add(this.text_NewTask);
             resources.ApplyResources(this.pnl_Time_top, "pnl_Time_top");
             this.pnl_Time_top.Name = "pnl_Time_top";
+            // 
+            // lbl_Priority
+            // 
+            resources.ApplyResources(this.lbl_Priority, "lbl_Priority");
+            this.lbl_Priority.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(192)))), ((int)(((byte)(165)))));
+            this.lbl_Priority.Name = "lbl_Priority";
             // 
             // cmb_TaskMenu
             // 
@@ -127,9 +144,17 @@
             // 
             // P_Finance
             // 
+            this.P_Finance.Controls.Add(this.CostsBox);
+            this.P_Finance.Controls.Add(this.IncomeBox);
             resources.ApplyResources(this.P_Finance, "P_Finance");
             this.P_Finance.Name = "P_Finance";
             this.P_Finance.UseVisualStyleBackColor = true;
+            // 
+            // IncomeBox
+            // 
+            resources.ApplyResources(this.IncomeBox, "IncomeBox");
+            this.IncomeBox.Name = "IncomeBox";
+            this.IncomeBox.TabStop = false;
             // 
             // P_Relax
             // 
@@ -143,17 +168,62 @@
             this.P_Options.Name = "P_Options";
             this.P_Options.UseVisualStyleBackColor = true;
             // 
-            // lbl_Priority
+            // ExitButton
             // 
-            resources.ApplyResources(this.lbl_Priority, "lbl_Priority");
-            this.lbl_Priority.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(192)))), ((int)(((byte)(165)))));
-            this.lbl_Priority.Name = "lbl_Priority";
+            resources.ApplyResources(this.ExitButton, "ExitButton");
+            this.ExitButton.Name = "ExitButton";
+            this.ExitButton.UseVisualStyleBackColor = true;
+            this.ExitButton.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ExitButton_MouseClick);
+            // 
+            // CostsBox
+            // 
+            this.CostsBox.Controls.Add(this.CostsLabel4);
+            this.CostsBox.Controls.Add(this.CostsLabel3);
+            this.CostsBox.Controls.Add(this.textBox1);
+            this.CostsBox.Controls.Add(this.button1);
+            this.CostsBox.Controls.Add(this.CostsLabel2);
+            this.CostsBox.Controls.Add(this.CostsLabel1);
+            resources.ApplyResources(this.CostsBox, "CostsBox");
+            this.CostsBox.Name = "CostsBox";
+            this.CostsBox.TabStop = false;
+            // 
+            // CostsLabel1
+            // 
+            resources.ApplyResources(this.CostsLabel1, "CostsLabel1");
+            this.CostsLabel1.Name = "CostsLabel1";
+            // 
+            // CostsLabel2
+            // 
+            resources.ApplyResources(this.CostsLabel2, "CostsLabel2");
+            this.CostsLabel2.Name = "CostsLabel2";
+            // 
+            // button1
+            // 
+            resources.ApplyResources(this.button1, "button1");
+            this.button1.Name = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // textBox1
+            // 
+            resources.ApplyResources(this.textBox1, "textBox1");
+            this.textBox1.Name = "textBox1";
+            // 
+            // CostsLabel3
+            // 
+            resources.ApplyResources(this.CostsLabel3, "CostsLabel3");
+            this.CostsLabel3.Name = "CostsLabel3";
+            // 
+            // CostsLabel4
+            // 
+            resources.ApplyResources(this.CostsLabel4, "CostsLabel4");
+            this.CostsLabel4.Name = "CostsLabel4";
             // 
             // f_Main
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(97)))), ((int)(((byte)(78)))));
+            this.Controls.Add(this.ExitButton);
             this.Controls.Add(this.Main_tab);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.Name = "f_Main";
@@ -163,6 +233,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.err_TimeManager)).EndInit();
             this.Main_tab.ResumeLayout(false);
             this.P_Time.ResumeLayout(false);
+            this.P_Finance.ResumeLayout(false);
+            this.CostsBox.ResumeLayout(false);
+            this.CostsBox.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -183,6 +256,15 @@
         private System.Windows.Forms.TabPage P_Relax;
         private System.Windows.Forms.TabPage P_Options;
         private System.Windows.Forms.Label lbl_Priority;
+        private System.Windows.Forms.Button ExitButton;
+        private System.Windows.Forms.GroupBox IncomeBox;
+        private System.Windows.Forms.GroupBox CostsBox;
+        private System.Windows.Forms.Label CostsLabel4;
+        private System.Windows.Forms.Label CostsLabel3;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label CostsLabel2;
+        private System.Windows.Forms.Label CostsLabel1;
     }
 }
 

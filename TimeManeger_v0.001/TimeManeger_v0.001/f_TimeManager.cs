@@ -100,6 +100,11 @@ namespace TimeManeger_v0._001
             }
         }
 
+        private void ExitButton_MouseClick(object sender, MouseEventArgs e)
+        {
+            Application.Exit();
+        }
+
 
     }
 }

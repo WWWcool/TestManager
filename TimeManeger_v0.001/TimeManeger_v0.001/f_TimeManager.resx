@@ -119,17 +119,14 @@
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="text_NewTask.Location" type="System.Drawing.Point, System.Drawing">
-    <value>17, 20</value>
+    <value>13, 16</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="text_NewTask.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
   <data name="text_NewTask.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
   </data>
   <data name="text_NewTask.Size" type="System.Drawing.Size, System.Drawing">
-    <value>513, 22</value>
+    <value>386, 20</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="text_NewTask.TabIndex" type="System.Int32, mscorlib">
@@ -153,6 +150,51 @@
   <data name="&gt;&gt;text_NewTask.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
+  <data name="&gt;&gt;lbl_Priority.Name" xml:space="preserve">
+    <value>lbl_Priority</value>
+  </data>
+  <data name="&gt;&gt;lbl_Priority.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_Priority.Parent" xml:space="preserve">
+    <value>pnl_Time_top</value>
+  </data>
+  <data name="&gt;&gt;lbl_Priority.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;cmb_TaskMenu.Name" xml:space="preserve">
+    <value>cmb_TaskMenu</value>
+  </data>
+  <data name="&gt;&gt;cmb_TaskMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmb_TaskMenu.Parent" xml:space="preserve">
+    <value>pnl_Time_top</value>
+  </data>
+  <data name="&gt;&gt;cmb_TaskMenu.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="pnl_Time_top.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 6</value>
+  </data>
+  <data name="pnl_Time_top.Size" type="System.Drawing.Size, System.Drawing">
+    <value>508, 92</value>
+  </data>
+  <data name="pnl_Time_top.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;pnl_Time_top.Name" xml:space="preserve">
+    <value>pnl_Time_top</value>
+  </data>
+  <data name="&gt;&gt;pnl_Time_top.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnl_Time_top.Parent" xml:space="preserve">
+    <value>P_Time</value>
+  </data>
+  <data name="&gt;&gt;pnl_Time_top.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="lbl_Priority.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -160,10 +202,13 @@
     <value>Microsoft Sans Serif, 12pt</value>
   </data>
   <data name="lbl_Priority.Location" type="System.Drawing.Point, System.Drawing">
-    <value>492, 88</value>
+    <value>369, 72</value>
+  </data>
+  <data name="lbl_Priority.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
   </data>
   <data name="lbl_Priority.Size" type="System.Drawing.Size, System.Drawing">
-    <value>186, 25</value>
+    <value>152, 20</value>
   </data>
   <data name="lbl_Priority.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -184,13 +229,10 @@
     <value>0</value>
   </data>
   <data name="cmb_TaskMenu.Location" type="System.Drawing.Point, System.Drawing">
-    <value>17, 65</value>
-  </data>
-  <data name="cmb_TaskMenu.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>13, 53</value>
   </data>
   <data name="cmb_TaskMenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>299, 24</value>
+    <value>225, 21</value>
   </data>
   <data name="cmb_TaskMenu.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -210,38 +252,11 @@
   <data name="&gt;&gt;cmb_TaskMenu.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="pnl_Time_top.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 7</value>
-  </data>
-  <data name="pnl_Time_top.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="pnl_Time_top.Size" type="System.Drawing.Size, System.Drawing">
-    <value>678, 113</value>
-  </data>
-  <data name="pnl_Time_top.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;pnl_Time_top.Name" xml:space="preserve">
-    <value>pnl_Time_top</value>
-  </data>
-  <data name="&gt;&gt;pnl_Time_top.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pnl_Time_top.Parent" xml:space="preserve">
-    <value>P_Time</value>
-  </data>
-  <data name="&gt;&gt;pnl_Time_top.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <data name="btn_Analis.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 387</value>
-  </data>
-  <data name="btn_Analis.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>6, 314</value>
   </data>
   <data name="btn_Analis.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 28</value>
+    <value>75, 23</value>
   </data>
   <data name="btn_Analis.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -265,13 +280,10 @@
     <value>NoControl</value>
   </data>
   <data name="btn_Celender.Location" type="System.Drawing.Point, System.Drawing">
-    <value>116, 387</value>
-  </data>
-  <data name="btn_Celender.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>87, 314</value>
   </data>
   <data name="btn_Celender.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 28</value>
+    <value>75, 23</value>
   </data>
   <data name="btn_Celender.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -298,34 +310,40 @@
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>8, 16</value>
+    <value>6, 13</value>
   </data>
   <data name="$this.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>733, 492</value>
+    <value>552, 424</value>
+  </data>
+  <data name="ExitButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>449, 375</value>
+  </data>
+  <data name="ExitButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 37</value>
+  </data>
+  <data name="ExitButton.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="ExitButton.Text" xml:space="preserve">
+    <value>Выход</value>
+  </data>
+  <data name="&gt;&gt;ExitButton.Name" xml:space="preserve">
+    <value>ExitButton</value>
+  </data>
+  <data name="&gt;&gt;ExitButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ExitButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ExitButton.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="Main_tab.Alignment" type="System.Windows.Forms.TabAlignment, System.Windows.Forms">
     <value>Bottom</value>
-  </data>
-  <data name="btn_Options.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btn_Options.Location" type="System.Drawing.Point, System.Drawing">
-    <value>224, 387</value>
-  </data>
-  <data name="btn_Options.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="btn_Options.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 28</value>
-  </data>
-  <data name="btn_Options.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="btn_Options.Text" xml:space="preserve">
-    <value>Настройки</value>
   </data>
   <data name="&gt;&gt;btn_Options.Name" xml:space="preserve">
     <value>btn_Options</value>
@@ -338,18 +356,6 @@
   </data>
   <data name="&gt;&gt;btn_Options.ZOrder" xml:space="preserve">
     <value>1</value>
-  </data>
-  <data name="pnl_Task.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 115</value>
-  </data>
-  <data name="pnl_Task.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="pnl_Task.Size" type="System.Drawing.Size, System.Drawing">
-    <value>678, 264</value>
-  </data>
-  <data name="pnl_Task.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
   </data>
   <data name="&gt;&gt;pnl_Task.Name" xml:space="preserve">
     <value>pnl_Task</value>
@@ -366,11 +372,14 @@
   <data name="P_Time.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 4</value>
   </data>
+  <data name="P_Time.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
   <data name="P_Time.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
+    <value>2, 2, 2, 2</value>
   </data>
   <data name="P_Time.Size" type="System.Drawing.Size, System.Drawing">
-    <value>692, 425</value>
+    <value>517, 337</value>
   </data>
   <data name="P_Time.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -390,11 +399,218 @@
   <data name="&gt;&gt;P_Time.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="CostsLabel4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CostsLabel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>166, 28</value>
+  </data>
+  <data name="CostsLabel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 13</value>
+  </data>
+  <data name="CostsLabel4.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="CostsLabel4.Text" xml:space="preserve">
+    <value>0 руб.</value>
+  </data>
+  <data name="&gt;&gt;CostsLabel4.Name" xml:space="preserve">
+    <value>CostsLabel4</value>
+  </data>
+  <data name="&gt;&gt;CostsLabel4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CostsLabel4.Parent" xml:space="preserve">
+    <value>CostsBox</value>
+  </data>
+  <data name="&gt;&gt;CostsLabel4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="CostsLabel3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CostsLabel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 29</value>
+  </data>
+  <data name="CostsLabel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 13</value>
+  </data>
+  <data name="CostsLabel3.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="CostsLabel3.Text" xml:space="preserve">
+    <value>Текущие расходы за месяц:</value>
+  </data>
+  <data name="&gt;&gt;CostsLabel3.Name" xml:space="preserve">
+    <value>CostsLabel3</value>
+  </data>
+  <data name="&gt;&gt;CostsLabel3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CostsLabel3.Parent" xml:space="preserve">
+    <value>CostsBox</value>
+  </data>
+  <data name="&gt;&gt;CostsLabel3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="textBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>136, 46</value>
+  </data>
+  <data name="textBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 38</value>
+  </data>
+  <data name="textBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Name" xml:space="preserve">
+    <value>textBox1</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Parent" xml:space="preserve">
+    <value>CostsBox</value>
+  </data>
+  <data name="&gt;&gt;textBox1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 46</value>
+  </data>
+  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 39</value>
+  </data>
+  <data name="button1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="button1.Text" xml:space="preserve">
+    <value>Добавить новые расходы</value>
+  </data>
+  <data name="&gt;&gt;button1.Name" xml:space="preserve">
+    <value>button1</value>
+  </data>
+  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
+    <value>CostsBox</value>
+  </data>
+  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="CostsLabel2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CostsLabel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>163, 16</value>
+  </data>
+  <data name="CostsLabel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 13</value>
+  </data>
+  <data name="CostsLabel2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="CostsLabel2.Text" xml:space="preserve">
+    <value> 0 руб.</value>
+  </data>
+  <data name="&gt;&gt;CostsLabel2.Name" xml:space="preserve">
+    <value>CostsLabel2</value>
+  </data>
+  <data name="&gt;&gt;CostsLabel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CostsLabel2.Parent" xml:space="preserve">
+    <value>CostsBox</value>
+  </data>
+  <data name="&gt;&gt;CostsLabel2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="CostsLabel1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CostsLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 16</value>
+  </data>
+  <data name="CostsLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 13</value>
+  </data>
+  <data name="CostsLabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="CostsLabel1.Text" xml:space="preserve">
+    <value>Сегодня вы потратили:</value>
+  </data>
+  <data name="&gt;&gt;CostsLabel1.Name" xml:space="preserve">
+    <value>CostsLabel1</value>
+  </data>
+  <data name="&gt;&gt;CostsLabel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CostsLabel1.Parent" xml:space="preserve">
+    <value>CostsBox</value>
+  </data>
+  <data name="&gt;&gt;CostsLabel1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="CostsBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="CostsBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>248, 248</value>
+  </data>
+  <data name="CostsBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="CostsBox.Text" xml:space="preserve">
+    <value>Расходы</value>
+  </data>
+  <data name="&gt;&gt;CostsBox.Name" xml:space="preserve">
+    <value>CostsBox</value>
+  </data>
+  <data name="&gt;&gt;CostsBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CostsBox.Parent" xml:space="preserve">
+    <value>P_Finance</value>
+  </data>
+  <data name="&gt;&gt;CostsBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="IncomeBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>257, 3</value>
+  </data>
+  <data name="IncomeBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>257, 248</value>
+  </data>
+  <data name="IncomeBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="IncomeBox.Text" xml:space="preserve">
+    <value>Доходы</value>
+  </data>
+  <data name="&gt;&gt;IncomeBox.Name" xml:space="preserve">
+    <value>IncomeBox</value>
+  </data>
+  <data name="&gt;&gt;IncomeBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;IncomeBox.Parent" xml:space="preserve">
+    <value>P_Finance</value>
+  </data>
+  <data name="&gt;&gt;IncomeBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
   <data name="P_Finance.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 4</value>
   </data>
+  <data name="P_Finance.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
   <data name="P_Finance.Size" type="System.Drawing.Size, System.Drawing">
-    <value>692, 425</value>
+    <value>517, 337</value>
   </data>
   <data name="P_Finance.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -417,8 +633,11 @@
   <data name="P_Relax.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 4</value>
   </data>
+  <data name="P_Relax.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
   <data name="P_Relax.Size" type="System.Drawing.Size, System.Drawing">
-    <value>692, 425</value>
+    <value>517, 337</value>
   </data>
   <data name="P_Relax.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -441,8 +660,11 @@
   <data name="P_Options.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 4</value>
   </data>
+  <data name="P_Options.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
   <data name="P_Options.Size" type="System.Drawing.Size, System.Drawing">
-    <value>692, 425</value>
+    <value>517, 337</value>
   </data>
   <data name="P_Options.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -466,10 +688,13 @@
     <value>100, 35</value>
   </data>
   <data name="Main_tab.Location" type="System.Drawing.Point, System.Drawing">
-    <value>17, 12</value>
+    <value>13, 10</value>
+  </data>
+  <data name="Main_tab.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
   </data>
   <data name="Main_tab.Size" type="System.Drawing.Size, System.Drawing">
-    <value>700, 468</value>
+    <value>525, 380</value>
   </data>
   <data name="Main_tab.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -484,10 +709,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Main_tab.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>1</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>TimeManger</value>
@@ -503,5 +725,53 @@
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_Options.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_Options.Location" type="System.Drawing.Point, System.Drawing">
+    <value>168, 314</value>
+  </data>
+  <data name="btn_Options.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btn_Options.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="btn_Options.Text" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="&gt;&gt;btn_Options.Name" xml:space="preserve">
+    <value>btn_Options</value>
+  </data>
+  <data name="&gt;&gt;btn_Options.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_Options.Parent" xml:space="preserve">
+    <value>P_Time</value>
+  </data>
+  <data name="&gt;&gt;btn_Options.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="pnl_Task.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 93</value>
+  </data>
+  <data name="pnl_Task.Size" type="System.Drawing.Size, System.Drawing">
+    <value>508, 214</value>
+  </data>
+  <data name="pnl_Task.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;pnl_Task.Name" xml:space="preserve">
+    <value>pnl_Task</value>
+  </data>
+  <data name="&gt;&gt;pnl_Task.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnl_Task.Parent" xml:space="preserve">
+    <value>P_Time</value>
+  </data>
+  <data name="&gt;&gt;pnl_Task.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
 </root>
