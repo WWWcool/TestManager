@@ -49,6 +49,7 @@ namespace TimeManeger_v0._001
                 Task_Check Task_check = new Task_Check();
                 Task_check.Set_text(text_NewTask.Text);
                 Task_check.Location = new Point(25, 10 + i * 35);
+                Task_check.Tag = i;
                 TaskList.Add(Task_check);
                 pnl_Task.Controls.Add(Task_check);
                 text_NewTask.Text = "<<  Добавить новую задачу  >>";
@@ -75,11 +76,17 @@ namespace TimeManeger_v0._001
                 case 1: // Перенести
                     break;
                 case 2: // Удалить
-                    foreach (Task_Check k in TaskList)
+                    int Check_flag = 1;
+                    while (Check_flag == 1)
                     {
-                         if (k.Get_Checked()) pnl_Task.Controls.Remove(k);
-                        // подвинуть к+1 на 1 вверх переделать список чтобы удаленные норм выводились
+                        Check_flag = 0;
+                        for (int i = 0; i < TaskList.Count; i++)
+                        {
+                            Task_Check k = (Task_Check)TaskList[i];
+                            if (k.Get_Checked()) { pnl_Task.Controls.Remove(k); TaskList.Remove(k); Check_flag = 1; }
+                        }
                     }
+                    pnl_Task_RePlace();
                     break;
             }
             pnl_Task.Focus();
@@ -97,9 +104,21 @@ namespace TimeManeger_v0._001
                  * повторяем поиск до тех пор пока в скопированном листе не останется элементов
                  * 
                 */
+
+
             }
         }
 
-
+        void pnl_Task_RePlace()
+        {
+            int i = 0;
+            foreach (Task_Check k in pnl_Task.Controls.OfType<Task_Check>())
+            {
+                k.Location = new Point(25, 10 + i * 35);
+                k.Tag = i;
+                i++;
+            }
+            
+        }
     }
 }

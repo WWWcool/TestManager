@@ -33,5 +33,18 @@ namespace TimeManeger_v0._001
         {
             Task_label.Text = Text;
         }
+
+        private void Task_Priority_SelectedIndexChanged(object sender, EventArgs e)
+        {
+           ListBox tmp = new ListBox();
+            tmp = (ListBox)sender;
+            this.Priority = tmp.SelectedIndex;
+            ReRating();
+        }
+        public void ReRating()
+        {
+            this.Rating = this.Priority;
+        }
+
     }
 }

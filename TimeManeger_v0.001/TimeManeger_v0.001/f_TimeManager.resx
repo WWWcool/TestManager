@@ -119,17 +119,14 @@
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="text_NewTask.Location" type="System.Drawing.Point, System.Drawing">
-    <value>17, 20</value>
+    <value>13, 16</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="text_NewTask.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
   <data name="text_NewTask.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
   </data>
   <data name="text_NewTask.Size" type="System.Drawing.Size, System.Drawing">
-    <value>513, 22</value>
+    <value>386, 20</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="text_NewTask.TabIndex" type="System.Int32, mscorlib">
@@ -160,10 +157,13 @@
     <value>Microsoft Sans Serif, 12pt</value>
   </data>
   <data name="lbl_Priority.Location" type="System.Drawing.Point, System.Drawing">
-    <value>492, 88</value>
+    <value>398, 72</value>
+  </data>
+  <data name="lbl_Priority.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
   </data>
   <data name="lbl_Priority.Size" type="System.Drawing.Size, System.Drawing">
-    <value>186, 25</value>
+    <value>152, 20</value>
   </data>
   <data name="lbl_Priority.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -184,13 +184,10 @@
     <value>0</value>
   </data>
   <data name="cmb_TaskMenu.Location" type="System.Drawing.Point, System.Drawing">
-    <value>17, 65</value>
-  </data>
-  <data name="cmb_TaskMenu.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>13, 53</value>
   </data>
   <data name="cmb_TaskMenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>299, 24</value>
+    <value>225, 21</value>
   </data>
   <data name="cmb_TaskMenu.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -211,13 +208,10 @@
     <value>1</value>
   </data>
   <data name="pnl_Time_top.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 7</value>
-  </data>
-  <data name="pnl_Time_top.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>5, 6</value>
   </data>
   <data name="pnl_Time_top.Size" type="System.Drawing.Size, System.Drawing">
-    <value>678, 113</value>
+    <value>550, 92</value>
   </data>
   <data name="pnl_Time_top.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -235,13 +229,10 @@
     <value>0</value>
   </data>
   <data name="btn_Analis.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 387</value>
-  </data>
-  <data name="btn_Analis.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>6, 314</value>
   </data>
   <data name="btn_Analis.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 28</value>
+    <value>75, 23</value>
   </data>
   <data name="btn_Analis.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -265,13 +256,10 @@
     <value>NoControl</value>
   </data>
   <data name="btn_Celender.Location" type="System.Drawing.Point, System.Drawing">
-    <value>116, 387</value>
-  </data>
-  <data name="btn_Celender.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>87, 314</value>
   </data>
   <data name="btn_Celender.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 28</value>
+    <value>75, 23</value>
   </data>
   <data name="btn_Celender.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -298,13 +286,13 @@
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>8, 16</value>
+    <value>6, 13</value>
   </data>
   <data name="$this.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>733, 492</value>
+    <value>586, 400</value>
   </data>
   <data name="Main_tab.Alignment" type="System.Windows.Forms.TabAlignment, System.Windows.Forms">
     <value>Bottom</value>
@@ -313,13 +301,10 @@
     <value>NoControl</value>
   </data>
   <data name="btn_Options.Location" type="System.Drawing.Point, System.Drawing">
-    <value>224, 387</value>
-  </data>
-  <data name="btn_Options.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>168, 314</value>
   </data>
   <data name="btn_Options.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 28</value>
+    <value>75, 23</value>
   </data>
   <data name="btn_Options.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -340,13 +325,10 @@
     <value>1</value>
   </data>
   <data name="pnl_Task.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 115</value>
-  </data>
-  <data name="pnl_Task.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>5, 93</value>
   </data>
   <data name="pnl_Task.Size" type="System.Drawing.Size, System.Drawing">
-    <value>678, 264</value>
+    <value>550, 214</value>
   </data>
   <data name="pnl_Task.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -366,11 +348,14 @@
   <data name="P_Time.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 4</value>
   </data>
+  <data name="P_Time.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
   <data name="P_Time.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
+    <value>2, 2, 2, 2</value>
   </data>
   <data name="P_Time.Size" type="System.Drawing.Size, System.Drawing">
-    <value>692, 425</value>
+    <value>560, 337</value>
   </data>
   <data name="P_Time.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -393,8 +378,11 @@
   <data name="P_Finance.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 4</value>
   </data>
+  <data name="P_Finance.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
   <data name="P_Finance.Size" type="System.Drawing.Size, System.Drawing">
-    <value>692, 425</value>
+    <value>517, 337</value>
   </data>
   <data name="P_Finance.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -417,8 +405,11 @@
   <data name="P_Relax.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 4</value>
   </data>
+  <data name="P_Relax.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
   <data name="P_Relax.Size" type="System.Drawing.Size, System.Drawing">
-    <value>692, 425</value>
+    <value>517, 337</value>
   </data>
   <data name="P_Relax.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -441,8 +432,11 @@
   <data name="P_Options.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 4</value>
   </data>
+  <data name="P_Options.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
   <data name="P_Options.Size" type="System.Drawing.Size, System.Drawing">
-    <value>692, 425</value>
+    <value>517, 337</value>
   </data>
   <data name="P_Options.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -466,10 +460,13 @@
     <value>100, 35</value>
   </data>
   <data name="Main_tab.Location" type="System.Drawing.Point, System.Drawing">
-    <value>17, 12</value>
+    <value>13, 10</value>
+  </data>
+  <data name="Main_tab.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
   </data>
   <data name="Main_tab.Size" type="System.Drawing.Size, System.Drawing">
-    <value>700, 468</value>
+    <value>568, 380</value>
   </data>
   <data name="Main_tab.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -485,9 +482,6 @@
   </data>
   <data name="&gt;&gt;Main_tab.ZOrder" xml:space="preserve">
     <value>0</value>
-  </data>
-  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>TimeManger</value>

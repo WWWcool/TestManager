@@ -42,7 +42,7 @@
             this.Task_Checkbox.Location = new System.Drawing.Point(10, 10);
             this.Task_Checkbox.Margin = new System.Windows.Forms.Padding(4);
             this.Task_Checkbox.Name = "Task_Checkbox";
-            this.Task_Checkbox.Size = new System.Drawing.Size(18, 17);
+            this.Task_Checkbox.Size = new System.Drawing.Size(15, 14);
             this.Task_Checkbox.TabIndex = 0;
             this.Task_Checkbox.UseVisualStyleBackColor = true;
             this.Task_Checkbox.CheckedChanged += new System.EventHandler(this.Task_Check_CheckedChanged);
@@ -53,7 +53,7 @@
             this.Task_label.Location = new System.Drawing.Point(35, 7);
             this.Task_label.MaximumSize = new System.Drawing.Size(540, 20);
             this.Task_label.Name = "Task_label";
-            this.Task_label.Size = new System.Drawing.Size(14, 20);
+            this.Task_label.Size = new System.Drawing.Size(12, 17);
             this.Task_label.TabIndex = 1;
             this.Task_label.Text = " ";
             // 
@@ -61,20 +61,21 @@
             // 
             this.Task_Priority.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Task_Priority.FormattingEnabled = true;
-            this.Task_Priority.ItemHeight = 20;
+            this.Task_Priority.ItemHeight = 16;
             this.Task_Priority.Items.AddRange(new object[] {
             "Выкл.",
             "Высокий",
             "Средний",
             "Низкий"});
-            this.Task_Priority.Location = new System.Drawing.Point(490, 7);
+            this.Task_Priority.Location = new System.Drawing.Point(416, 7);
             this.Task_Priority.Name = "Task_Priority";
-            this.Task_Priority.Size = new System.Drawing.Size(100, 22);
+            this.Task_Priority.Size = new System.Drawing.Size(100, 18);
             this.Task_Priority.TabIndex = 2;
+            this.Task_Priority.SelectedIndexChanged += new System.EventHandler(this.Task_Priority_SelectedIndexChanged);
             // 
             // Task_Check
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.Task_Priority);
             this.Controls.Add(this.Task_label);
@@ -82,7 +83,7 @@
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Task_Check";
-            this.Size = new System.Drawing.Size(593, 35);
+            this.Size = new System.Drawing.Size(531, 35);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -93,8 +94,13 @@
         private System.Windows.Forms.CheckBox Task_Checkbox;
         private System.Windows.Forms.Label Task_label;
         private System.Windows.Forms.ListBox Task_Priority;
-        
-        
+
+        private string Start_Date, End_Date, To_Date;
+
+        private int Priority;
+
+        public int Rating;
+
         public bool Get_Checked()
         {
             return Task_Checkbox.Checked;

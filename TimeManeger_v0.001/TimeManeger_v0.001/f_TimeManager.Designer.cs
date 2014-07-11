@@ -32,6 +32,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(f_Main));
             this.text_NewTask = new System.Windows.Forms.TextBox();
             this.pnl_Time_top = new System.Windows.Forms.Panel();
+            this.lbl_Priority = new System.Windows.Forms.Label();
             this.cmb_TaskMenu = new System.Windows.Forms.ComboBox();
             this.btn_Analis = new System.Windows.Forms.Button();
             this.btn_Celender = new System.Windows.Forms.Button();
@@ -43,7 +44,6 @@
             this.P_Finance = new System.Windows.Forms.TabPage();
             this.P_Relax = new System.Windows.Forms.TabPage();
             this.P_Options = new System.Windows.Forms.TabPage();
-            this.lbl_Priority = new System.Windows.Forms.Label();
             this.pnl_Time_top.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.err_TimeManager)).BeginInit();
             this.Main_tab.SuspendLayout();
@@ -66,6 +66,12 @@
             this.pnl_Time_top.Controls.Add(this.text_NewTask);
             resources.ApplyResources(this.pnl_Time_top, "pnl_Time_top");
             this.pnl_Time_top.Name = "pnl_Time_top";
+            // 
+            // lbl_Priority
+            // 
+            resources.ApplyResources(this.lbl_Priority, "lbl_Priority");
+            this.lbl_Priority.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(192)))), ((int)(((byte)(165)))));
+            this.lbl_Priority.Name = "lbl_Priority";
             // 
             // cmb_TaskMenu
             // 
@@ -142,12 +148,6 @@
             resources.ApplyResources(this.P_Options, "P_Options");
             this.P_Options.Name = "P_Options";
             this.P_Options.UseVisualStyleBackColor = true;
-            // 
-            // lbl_Priority
-            // 
-            resources.ApplyResources(this.lbl_Priority, "lbl_Priority");
-            this.lbl_Priority.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(192)))), ((int)(((byte)(165)))));
-            this.lbl_Priority.Name = "lbl_Priority";
             // 
             // f_Main
             // 
